@@ -1,0 +1,9 @@
+{
+	"dotNetTypeName": "Type de données",
+	"dataSourceType": "Type de la source",
+	"dataSourceArgument": "Argument",
+	"displayFormat": "Format d'affichage",
+	"urlFormat": "Format d'URL",
+	"templateName": "Template d'affichage",
+	"summaryType": "Type d'agrégat de pivot"
+}

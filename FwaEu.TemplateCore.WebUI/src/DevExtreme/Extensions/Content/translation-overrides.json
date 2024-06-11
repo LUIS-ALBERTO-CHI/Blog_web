@@ -1,0 +1,27 @@
+{
+	"fr": {
+
+		"dxLookup-searchPlaceholder": "Nombre minimum de caractères : {0}",
+		"dxList-refreshingText": "Mise à jour...",
+		"dxFileUploader-dropFile": "Ou déposez le ici",
+		"dxScheduler-recurrenceRepeatOn": "Répéter le",
+		"dxDataGrid-summaryMin": "Min : {0}",
+		"dxDataGrid-summaryMinOtherColumn": "Minimum de {1} est {0}",
+		"dxDataGrid-summaryMax": "Max : {0}",
+		"dxDataGrid-summaryMaxOtherColumn": "Maximum de {1} est {0}",
+		"dxDataGrid-summaryAvg": "Moy : {0}",
+		"dxDataGrid-summaryAvgOtherColumn": "Moyenne de {1} est {0}",
+		"dxDataGrid-summarySum": "Somme : {0}",
+		"dxDataGrid-summarySumOtherColumn": "Somme de {1} est {0}",
+		"dxDataGrid-summaryCount": "Total : {0}",
+		"dxDataGrid-editingEditRow": "Modifier",
+		"dxDataGrid-editingSaveRowChanges": "Enregistrer",
+		"dxSwitch-switchedOnText": "Oui",
+		"dxSwitch-switchedOffText": "Non"
+
+	},
+	"en": {
+		"dxSwitch-switchedOnText": "Yes",
+		"dxSwitch-switchedOffText": "No"
+	}
+}

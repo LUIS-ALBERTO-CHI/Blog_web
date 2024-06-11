@@ -1,0 +1,46 @@
+.user-tooltip-container .dx-popup-content {
+	margin: 5px;
+}
+.user-tooltip {
+	text-align: left;
+}
+
+.user-tooltip-avatar
+{
+	float: left;
+	margin-right: 17px; /* NOTE: Same value as the inner tooltip padding */
+}
+
+.user-tooltip-date {
+	font-size: 120%;
+	text-align: center;
+	background-color: #f8f8f8;
+	color: var(--secondary-text-color);
+	padding: 5px 0px;
+	border-radius: 20px;
+	margin-left: 97px; /* NOTE: 80px + 17px (avatar large + inner tooltip padding) */
+}
+
+	.user-tooltip-date + .user-tooltip-user-details
+	{
+		margin-top: 10px;
+	}
+
+	.user-tooltip-date .dx-icon
+	{
+		vertical-align: middle;
+	}
+
+
+.user-tooltip-user-details .full-name
+{
+	display: block;
+	font-size: 130%;
+}
+
+
+.user-tooltip,
+user-tooltip *
+{
+	display: inline !important;
+}

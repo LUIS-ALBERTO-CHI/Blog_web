@@ -1,0 +1,9 @@
+{
+	"unknownErrorMessage": "Unknown error",
+	"errorPageTitle": "Error",
+	"errorMessage400": "Bad request",
+	"errorMessage401": "The access to the requested resource is restricted and you are not allowed to access it",
+	"errorMessage403": "The access to the requested resource is restricted and you are not allowed to access it",
+	"errorMessage404": "Unable to find the requested resource",
+	"errorMessage5xx": "The application has encountered an unknown error, if the problem persists please contact your administrator"
+}

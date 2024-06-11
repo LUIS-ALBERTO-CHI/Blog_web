@@ -1,0 +1,6 @@
+{
+	"name": "@fwaeu/vite-plugin-uilibrary-switch",
+	"version": "1.0.0",
+	"main": "index.mjs",
+	"type": "module"
+}

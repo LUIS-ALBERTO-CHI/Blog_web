@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" href="/icon512.png">
+	<title>{{appSettings.application.name}}</title>
+	<script type="module" src="/src/main.ts"></script>
+</head>
+<body>
+	<div id="not-supported-browser-message" style="display: none;">
+		<div id="translateText">
+			<h2>Votre navigateur n'est pas supporté</h2>
+			<p>
+				Le site est optimisé pour fonctionner sur des navigateurs récents, ce qui ne semble pas être le cas de votre navigateur.
+			</p>
+			<p>
+				Pour plus de sécurité, de rapidité et une meilleure expérience sur ce site, il est recommandé de mettre à jour votre navigateur.
+			</p>
+			<p>
+				Ci-dessous la liste des navigateurs supportés :
+			</p>
+		</div>
+		<ul class="browser-list">
+			<li>Google Chrome</li>
+			<li>Firefox</li>
+			<li>Edge</li>
+			<li>Safari</li>
+		</ul>
+
+		<style>
+			#not-supported-browser-message h2 {
+				color: #607d8b;
+			}
+
+			#not-supported-browser-message {
+				color: #607d8b;
+				font-family: sans-serif;
+				display: block;
+				margin: 60px auto;
+				height: 400px;
+				width: 1200px;
+				align-content: center;
+				text-align: center;
+				padding: 20px;
+				border: 4px #009688 solid;
+			}
+
+				#not-supported-browser-message ul.browser-list {
+					text-align: left;
+					margin-left: auto;
+					margin-right: auto;
+					width: 300px;
+					font-size: 20px;
+				}
+		</style>
+	</div>
+	<noscript>
+		<strong>We're sorry but clientapp doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+	</noscript>
+	<div id="app">
+		<div id="applicationLoader">
+			<div style="margin: auto">
+				<h1 id="applicationName">{{appSettings.application.name}}</h1>
+				<div>
+					<span id="serverOfflineMessage">ServerOfflineMessage</span>
+
+				</div>
+				<div id="loaderIconContainer">
+					<img id="loaderIcon" src="loader.gif" />
+					<a id="reloadLink" href="{{appSettings.application.publicUrl}}">Reload</a>
+				</div>
+			</div>
+			<style type="text/css">
+				#applicationLoader {
+					background: #f8f8f8;
+					color: #424242;
+					position: fixed;
+					display: flex;
+					top: 0;
+					left: 0;
+					height: 100%;
+					width: 100%;
+					visibility: hidden
+				}
+
+				#applicationName {
+					text-align: center;
+					font-size: 28px;
+					font-weight: 700;
+					margin: 20px;
+					font-family: Helvetica
+				}
+
+				#serverOfflineMessage {
+					display: none;
+					text-align: center;
+					font-size: 18px;
+					font-weight: 700;
+					margin: 20px;
+					font-family: Helvetica
+				}
+
+				#loaderIconContainer {
+					margin-bottom: 70px;
+				}
+
+				#loaderIcon {
+					display: block;
+					width: 70px;
+					margin: auto;
+					height: 70px;
+				}
+
+				#reloadLink {
+					display: none;
+					text-align: center;
+					width: 100%;
+					margin-top: 10px;
+					font-size: 18px;
+					font-weight: bold;
+					text-decoration: none;
+				}
+			</style>
+		</div>
+		<script type="text/javascript">
+			const delayToShowLoaderInMs = 1200;
+			setTimeout(function () {
+				const loader = document.getElementById("applicationLoader");
+				
+				if (loader) {
+					if (navigator.language.startsWith('fr')) {
+						document.getElementById("translateText").innerHTML =
+							'<h2>Your browser is not supported</h2>'
+							+ '<p>The site is optimized to run on recent browsers, which your browser does not appear to be.</p>'
+							+ '<p>For more security, speed and a better experience on this site, it is recommended to update your browser.</p>'
+							+ '<p>Below is the list of supported browsers :</p>';
+					}
+					if (!new RegExp("(edg|chrome|firefox|safari)", "i").test(navigator.userAgent)) {
+						document.getElementById("not-supported-browser-message").style.display = "block";
+					}
+					else {
+						loader.style.visibility = "visible";
+					}
+				}
+			}, delayToShowLoaderInMs);
+		</script>
+	</div>
+	<!-- built files will be auto injected -->
+</body>
+</html>

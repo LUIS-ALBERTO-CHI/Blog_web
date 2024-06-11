@@ -1,0 +1,7 @@
+[*]
+charset = utf-8
+indent_style = tab
+
+#Uncomment if you want to use space indentation (indent_style = tab need to be removed)
+#indent_style = space
+#indent_size = 4

@@ -1,0 +1,8 @@
+{
+	"BigInteger": "Grand entier",
+	"Boolean": "Booléen",
+	"Date": "Date",
+	"Decimal": "Décimal",
+	"Integer": "Entier",
+	"String": "Chaîne de caractères"
+}

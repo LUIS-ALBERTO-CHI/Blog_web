@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.668313">
+  <PropertyGroup>
+    <StartupCommand>npm run dev</StartupCommand>
+    <JavaScriptTestRoot>.\</JavaScriptTestRoot>
+    <JavaScriptTestFramework>Jest</JavaScriptTestFramework>
+    <!-- Command to run on project build -->
+    <BuildCommand>npm run build</BuildCommand>
+    <!-- Command to create an optimized build of the project that's ready for publishing -->
+    <ProductionBuildCommand>npm run build-prod</ProductionBuildCommand>
+    <!-- Folder where production build objects will be placed -->
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\Samples\DataGrid\DevExtreme\Services\" />
+    <Folder Include="src\Samples\DataGrid\PrimeVue\" />
+    <Folder Include="src\Samples\DataGrid\Services\" />
+  </ItemGroup>
+</Project>

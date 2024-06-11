@@ -1,0 +1,60 @@
+
+.avatar,
+.avatar.medium
+{
+	display: inline-block;
+	vertical-align: middle;
+	width: 32px;
+	height: 32px;
+	min-width: 32px;
+	line-height: 32px;
+	font-size: 11px;
+	overflow: hidden;
+	font-weight: bold;
+}
+
+	.avatar.small
+	{
+		width: 22px;
+		min-width: 22px;
+		height: 22px;
+		line-height: 22px;
+		font-size: 7px;
+	}
+
+	.avatar.large {
+		width: 56px;
+		min-width: 56px;
+		height: 56px;
+		line-height: 56px;
+		font-size: 20px;
+	}
+
+	.avatar.x-large {
+		width: 80px;
+		min-width: 80px;
+		height: 80px;
+		line-height: 80px;
+		font-size: 32px;
+	}
+
+	.avatar img
+	{
+		max-width: 100%;
+	}
+
+		.avatar img[src*=robohash] /* HACK: Because robohash do not use the full image... */
+		{
+			background-color: #EDEDED;
+			border: 1px solid #BABABA;
+			border-radius: 100%;
+		}
+
+.avatar-initials
+{
+	background-color: antiquewhite;
+	display: block;
+	height: 100%;
+	text-align: center;
+	border-radius: 100%;
+}

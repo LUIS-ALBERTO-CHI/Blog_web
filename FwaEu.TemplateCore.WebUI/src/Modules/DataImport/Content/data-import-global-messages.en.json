@@ -1,0 +1,10 @@
+{
+	"dataImportMenuItemText": "Data import",
+	"dataImportMenuItemDescription": "Mass creation and modification of data by importing files",
+	"nothingCreatedOrUpdated": "Nothing was created or updated",
+	"importOf": "Import of {0}",
+	"andOther": "None|and 1 other |and {n} others",
+	"added": "Nothing was created|1 row created|{n} rows created",
+	"updated": "Nothing was updated|1 row updated|{n} rows updated",
+	"CanImport": "Can import data"
+}

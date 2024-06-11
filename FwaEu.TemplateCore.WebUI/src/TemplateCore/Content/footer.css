@@ -1,0 +1,31 @@
+.footer {
+	margin-top: 0;
+	padding: 10px;
+	color: #707070;
+	text-align: center;
+	font-size: 0.8rem;
+	z-index: 1600; /*over loading panel*/
+}
+
+	.footer a
+	{
+		color: #707070;
+	}
+
+	.footer .logos
+	{
+		margin-top: 5px;
+	}
+
+		.footer .logos .logo
+		{
+			height: 24px;
+			vertical-align: baseline;
+			filter: grayscale(100%);
+			transition: filter linear 0.25s;
+		}
+
+		.footer .logos:hover .logo
+		{
+			filter: grayscale(0%);
+		}

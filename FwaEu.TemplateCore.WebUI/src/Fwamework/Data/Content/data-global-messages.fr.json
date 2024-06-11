@@ -1,0 +1,4 @@
+{
+	"UniqueDbConstraint": "Cet élément ne peut être édité ou créé car il ne respecte pas une contrainte d'unicité imposée par la base de données.",
+	"DeleteDbConstraint": "Vous ne pouvez pas supprimer cet élément car il est utilisé dans l'application."
+}

@@ -1,0 +1,179 @@
+.side-navigation-menu {
+	background-color: #FFFFFF;
+	border-right: 1px solid var(--secondary-bg-color);
+	height: 100%;
+}
+
+	.side-navigation-menu .menu-item--children-group i,
+	.side-navigation-menu span {
+		color: var(--primary-text-color);
+	}
+
+	.side-navigation-menu .expand-menu-icon {
+		color: var(--secondary-text-color);
+	}
+
+	.side-navigation-menu .menu-item--item.parent-item span {
+		font-weight: bold;
+	}
+
+	.side-navigation-menu.dx-template-wrapper {
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+
+	.side-navigation-menu .action-menu-container {
+		margin-left: auto;
+		margin-right: -14px;
+	}
+
+		.side-navigation-menu .action-menu-container .dx-icon {
+			width: auto;
+		}
+
+	.side-navigation-menu .dx-icon {
+		width: 58px;
+		text-align: center;
+		flex-shrink: 0;
+		font-size: 24px;
+	}
+
+		.side-navigation-menu .dx-icon.small-icon {
+			font-size: 16px;
+		}
+
+	.side-navigation-menu .dx-button.dx-button-normal.dx-button-mode-contained.dx-widget.dx-button-has-icon {
+		background-color: transparent;
+	}
+
+	.side-navigation-menu .dx-button.dx-state-hover {
+		background-color: #ebebeb !important;
+	}
+
+	.side-navigation-menu .expand-menu-icon {
+		font-size: 16px;
+		font-weight: bold;
+		margin-left: auto;
+		padding-left: 16px;
+	}
+
+	.side-navigation-menu .menu-item--group-container {
+		display: flex;
+		flex-direction: column;
+		flex-shrink: 0;
+		position: relative;
+		max-height: 48px;
+		overflow: hidden;
+	}
+
+		.side-navigation-menu .menu-item--group-container.parent-selected-menu-item {
+			background-color: rgb(0,0,0,0.08);
+		}
+
+			.side-navigation-menu .menu-item--group-container.parent-selected-menu-item::before {
+				bottom: 0;
+				background-color: var(--secondary-text-color);
+				opacity: 0.2;
+				content: "";
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 5px;
+			}
+
+			.side-navigation-menu .menu-item--group-container.parent-selected-menu-item .menu-item--item.parent-item {
+				font-weight: bold;
+			}
+
+	.side-navigation-menu .selected-menu-item {
+		background-color: rgb(0,0,0,0.08);
+		font-weight: bold;
+	}
+
+		.side-navigation-menu .selected-menu-item::before {
+			background-color: var(--secondary-text-color);
+			bottom: 0;
+			content: "";
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 5px;
+		}
+
+	.side-navigation-menu .menu-item--group-container.group-expanded {
+		height: auto;
+		max-height: 4000px;
+		transition: max-height 2s ease 0ms;
+	}
+
+	.side-navigation-menu .menu-item--group-container {
+		transition: max-height 400ms ease 0ms;
+	}
+
+	.side-navigation-menu .expand-menu-icon.fal.fa-caret-down {
+		transform: rotate(0deg);
+		transition: transform 200ms ease-in-out 0ms;
+		transform-origin: 56%;
+	}
+
+		.side-navigation-menu .expand-menu-icon.fal.fa-caret-down.fa-caret-down--opened {
+			transform: rotate(180deg) translate(-50%);
+		}
+
+#app .side-navigation-menu .menu-item--item {
+	align-items: center;
+	display: flex;
+	padding-right: 16px;
+	text-decoration: none;
+	position: relative;
+}
+
+	#app .side-navigation-menu .menu-item--item span {
+		font-size: 14px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+#app .side-navigation-menu .menu-item--children-group span {
+	font-size: 12px;
+}
+
+#app .side-navigation-menu .menu-item--item span:hover {
+	white-space: normal;
+}
+
+.side-navigation-menu .menu-item--item.parent-item {
+	height: 48px;
+	flex-shrink: 0;
+}
+
+.side-navigation-menu .menu-item--item:hover {
+	background-color: rgb(0,0,0,0.08);
+	cursor: pointer;
+}
+
+	.side-navigation-menu .menu-item--item:hover::before {
+		background-color: var(--secondary-text-color);
+		opacity: 0.2;
+		bottom: 0;
+		content: "";
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 5px;
+	}
+
+.side-navigation-menu .menu-item--item.child-item {
+	height: 40px;
+}
+
+.side-navigation-menu .menu-item--group-container > .menu-item--item > .item-counter {
+	height: 10px;
+	line-height: 10px;
+	width: 10px;
+}
+
+.side-navigation-menu .menu-item--children-group .menu-item--item .item-counter {
+	left: 35px;
+}

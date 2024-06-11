@@ -1,0 +1,8 @@
+{
+	"importResult": "Résultat",
+	"chooseFileButton": "Parcourir...",
+	"dragFileText": "Glissez et déposez des fichiers ici",
+	"uploadOtherFiles": "Importer d'autres fichiers",
+	"errorImport": "Erreur lors de l'import de fichiers",
+	"uploadFileButton": "Importer"
+}

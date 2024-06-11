@@ -1,0 +1,30 @@
+@media print {
+	body {
+		width: 1000px;
+	}
+
+		body .page-container {
+			max-width: 1200px !important;
+			margin: 0px;
+		}
+
+		body .dx-drawer-wrapper,
+		body .dx-drawer-shrink .dx-drawer-panel-content,
+		body .dx-drawer-content,
+		body .dx-scrollable-container {
+			overflow: visible;
+		}
+
+		body .dx-scrollbar-vertical.dx-scrollbar-hoverable,
+		body #app .dx-drawer-panel-content,
+		body #app .dx-overlay-content.dx-resizable,
+		body .dx-drawer-shrink .dx-drawer-panel-content {
+			display: none;
+		}
+
+	.box {
+		break-inside: avoid;
+		page-break-inside: avoid;
+		-webkit-break-inside: avoid;
+	}
+}

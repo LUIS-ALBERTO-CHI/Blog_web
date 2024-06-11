@@ -1,0 +1,7 @@
+{
+	"baseCurrencyCode": "Base currency",
+	"date": "Used from",
+	"isInverse": "Is inversed",
+	"quotedCurrencyCode": "Quoted currency",
+	"value": "Rate"
+}

@@ -1,0 +1,6 @@
+{
+	"errorMessage": "You do not have the necessary rights to perform the requested action",
+	"accessDeniedForUserByPermission": "Access denied because the lack of a right. Please ask your administrator to add you the following right: {0}.",
+	"accessDeniedForUserByAnyPermission": "Access denied because the lack of a right. Please ask your administrator to add you one of the following rights: {0}.",
+	"accessDeniedForUserByAllPermissions": "Access denied because the lack of one or more rights. Please ask your administrator to add you the following rights: {0}."
+}

@@ -1,0 +1,18 @@
+{
+	"actions": "Actions",
+	"code": "Code",
+	"createdById": "Created by",
+	"createdOn": "Created on",
+	"description": "Description",
+	"genericAdminLanguageEn": "English",
+	"genericAdminLanguageFr": "French",
+	"export": "Export",
+	"id": "Id",
+	"invariantId": "Code",
+	"name": "Name",
+	"new": "New",
+	"text": "Text",
+	"updatedById": "Modified by",
+	"updatedOn": "Modified on",
+	"value": "Value"
+}

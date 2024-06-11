@@ -1,0 +1,6 @@
+.user-date
+{
+	cursor: help;
+	display: inline-block;
+	line-height: 32px /* NOTE: Same value as the height of the avatar, this value is useful in the case there is no user (=> no avatar) */
+}

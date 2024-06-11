@@ -1,0 +1,23 @@
+.farm-state-opened {
+	background: #4CAF50;
+}
+
+.farm-state-closed {
+	background: #e06109;
+}
+
+.farm-state-opened,
+.farm-state-closed {
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.farm-state-label {
+	display: inline-block;
+}
+	.farm-state-label h1 {
+		margin: 5px 0;
+	}

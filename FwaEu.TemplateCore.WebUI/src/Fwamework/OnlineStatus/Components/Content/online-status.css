@@ -1,0 +1,12 @@
+#online-status-container {
+	padding-left: 10px;
+	vertical-align:top;
+}
+
+.online-status {
+	color: #8bc34a;
+}
+
+.offline-status {
+	color: #f44336;
+}

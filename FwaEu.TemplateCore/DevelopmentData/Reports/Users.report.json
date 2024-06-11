@@ -1,0 +1,112 @@
+{
+	"InvariantId": "Users",
+	"DataSource": {
+		"Type": "Sql",
+		"Argument": "SELECT CASE state WHEN 0 THEN 'Disabled' ELSE 'Active' END as state, email, first_name, user_id, created_on, updated_on,convert(bit,1) as 'option' FROM users where state = CASE :State WHEN 'Disabled' THEN 0 ELSE 1024 END"
+	},
+	"Filters": [
+		{
+			"invariantId": "UserId",
+			"isRequired": false
+		},
+		{
+			"invariantId": "CreationDate",
+			"isRequired": false
+		},
+		{
+			"invariantId": "CreationDate",
+			"isRequired": false
+		},
+		{
+			"invariantId": "State",
+			"isRequired": false
+		}
+	],
+	"Navigation": {
+		"Menu": {
+			"Visible": true,
+			"Index": 0
+		},
+		"Summary": {
+			"Visible": true,
+			"Index": 0
+		}
+	},
+	"Properties": [
+		{
+			"fieldInvariantId": "userId",
+			"name": "UserId"
+		},
+		{
+			"fieldInvariantId": "email",
+			"name": "Email"
+		},
+		{
+			"fieldInvariantId": "createdOn",
+			"name": "CreatedOn"
+		},
+		{
+			"name": "UpdatedOn"
+		},
+		{
+			"fieldInvariantId": "firstName",
+			"name": "FirstName"
+		},
+		{
+			"fieldInvariantId": "state",
+			"name": "State"
+		},
+		{
+			"fieldInvariantId": "option",
+			"name": "Option"
+		}
+	],
+	"DefaultViews": {
+		"Grid": [
+			{
+				"IsDefault": true,
+				"Name": {
+					"en": "Grid view 1",
+					"fr": "Grid vue 1"
+				},
+				"Value": "{\"columns\":[{\"visibleIndex\":7,\"dataField\":\"userId\",\"dataType\":\"number\",\"width\":null,\"visible\":true},{\"visibleIndex\":1,\"dataField\":\"email\",\"dataType\":\"string\",\"width\":null,\"visible\":true},{\"visibleIndex\":2,\"dataField\":\"createdOn\",\"dataType\":\"string\",\"width\":105,\"visible\":true},{\"visibleIndex\":3,\"dataField\":\"updatedOn\",\"dataType\":\"string\",\"width\":null,\"visible\":true},{\"visibleIndex\":4,\"dataField\":\"firstName\",\"dataType\":\"string\",\"width\":85,\"visible\":true},{\"visibleIndex\":5,\"dataField\":\"state\",\"dataType\":\"string\",\"visible\":true},{\"visibleIndex\":6,\"dataField\":\"option\",\"dataType\":\"boolean\",\"width\":80,\"visible\":true}],\"allowedPageSizes\":[10,20,40],\"filterPanel\":{\"filterEnabled\":true},\"filterValue\":null,\"searchText\":\"\",\"pageIndex\":0,\"pageSize\":5}"
+			},
+			{
+				"IsDefault": true,
+				"Name": {
+					"en": "Grid view 2",
+					"fr": "Grid vue 2"
+				},
+				"Value": "{\"columns\":[{\"visibleIndex\":0,\"dataField\":\"userId\",\"dataType\":\"number\",\"width\":null,\"visible\":true},{\"visibleIndex\":1,\"dataField\":\"email\",\"dataType\":\"string\",\"width\":null,\"visible\":true},{\"visibleIndex\":2,\"dataField\":\"createdOn\",\"dataType\":\"string\",\"width\":105,\"visible\":true},{\"visibleIndex\":3,\"dataField\":\"updatedOn\",\"dataType\":\"string\",\"width\":null,\"visible\":true},{\"visibleIndex\":4,\"dataField\":\"firstName\",\"dataType\":\"string\",\"width\":85,\"visible\":true},{\"visibleIndex\":5,\"dataField\":\"state\",\"dataType\":\"string\",\"visible\":true},{\"visibleIndex\":6,\"dataField\":\"option\",\"dataType\":\"boolean\",\"width\":80,\"visible\":true}],\"allowedPageSizes\":[10,20,40],\"filterPanel\":{\"filterEnabled\":true},\"filterValue\":null,\"searchText\":\"\",\"pageIndex\":0,\"pageSize\":10}"
+			}
+		],
+		"Pivot": [
+			{
+				"IsDefault": false,
+				"Name": {
+					"en": "Pivot view 1",
+					"fr": "Pivot vue 1"
+				},
+				"Value": "{\"fields\":[{\"dataField\":\"userId\",\"area\":\"column\"},{\"dataField\":\"firstName\",\"area\":\"data\"},{\"dataField\":\"lastName\"},{\"dataField\":\"email\"},{\"dataField\":\"createdOn\"},{\"dataField\":\"updatedById\"},{\"dataField\":\"isAdmin\"},{\"dataField\":\"state\", \"area\":\"data\"}],\"columnExpandedPaths\":[],\"rowExpandedPaths\":[]}"
+			},
+			{
+				"IsDefault": false,
+				"Name": {
+					"en": "Pivot view 2",
+					"fr": "Pivot vue 2"
+				},
+				"Value": "{\"fields\":[{\"dataField\":\"userId\",\"area\":\"column\"},{\"dataField\":\"firstName\",\"area\":\"data\"},{\"dataField\":\"lastName\"},{\"dataField\":\"email\",\"area\":\"data\"},{\"dataField\":\"createdOn\"},{\"dataField\":\"updatedById\"},{\"dataField\":\"isAdmin\"},{\"dataField\":\"state\", \"area\":\"data\"}],\"columnExpandedPaths\":[],\"rowExpandedPaths\":[]}"
+			}
+		]
+	},
+	"Name": {
+		"en": "Users list",
+		"fr": "Liste des utilisateurs"
+	},
+	"Description": {
+		"en": "User list which display all users",
+		"fr": "Liste des utilisateurs qui affiche tous les utilisateurs"
+	},
+	"CategoryInvariantId": "People",
+	"IsAsync": false
+}

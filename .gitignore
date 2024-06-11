@@ -1,0 +1,8 @@
+/.vs
+**/*.user
+/FwaEu.TemplateCore.WebUI/Properties/PublishProfiles/FolderProfile.pubxml
+/FwaEu.TemplateCore/Properties/PublishProfiles/FolderProfile.pubxml
+/FwaEu.TemplateCore/.config/dotnet-tools.json
+.DS_STORE
+.vscode/tasks.json
+.vscode/launch.json

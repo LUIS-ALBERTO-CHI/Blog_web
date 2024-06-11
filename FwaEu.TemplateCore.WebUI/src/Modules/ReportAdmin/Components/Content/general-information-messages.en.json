@@ -1,0 +1,11 @@
+{
+  "code": "Code",
+  "category": "Category",
+  "name": "Name",
+  "description": "Description",
+  "isAsync": "Asynchronous data loading",
+  "visibleOn": "Visible on",
+  "reportList": "Report list",
+  "mainMenu": "Main menu",
+  "icon": "Icon"
+}

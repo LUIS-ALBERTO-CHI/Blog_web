@@ -1,0 +1,8 @@
+{
+	"title": "Database",
+	"beforeUpdateSchema": "1. Execute actions to do before schema update",
+	"getUpdatedScript": "2. Get update schema script",
+	"updateSchema": "3. Update schema",
+	"afterUpdateSchema": "4. Execute actions to do after schema update",
+	"connectionStrings": "Connection strings"
+}

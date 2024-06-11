@@ -1,0 +1,12 @@
+.localizable-string-editor img.dx-icon {
+	padding: 4px;
+}
+.error-input {
+	border-right: 0px;
+}
+.span-error-input {
+	background-color: rgba(0, 0, 0, 0)
+}
+.icon-error-input {
+	color: #f44336
+}

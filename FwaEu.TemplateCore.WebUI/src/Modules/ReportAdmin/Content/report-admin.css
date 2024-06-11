@@ -1,0 +1,8 @@
+
+.general-information-navigation {
+	display: flex;
+}
+
+	.general-information-navigation .number-box-right {
+		margin-left: auto;
+	}

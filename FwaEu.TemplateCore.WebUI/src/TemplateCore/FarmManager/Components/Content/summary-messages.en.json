@@ -1,0 +1,9 @@
+{
+	"askConfirmationForDelete": "Are you sure to delete this farm?",
+	"confirm": "Confirmation",
+	"remove": "Remove",
+	"farmDeleted": "The farm has been deleted.",
+	"opened": "Opened",
+	"closed": "Closed",
+	"state":  "State: {stateLabel}"
+}

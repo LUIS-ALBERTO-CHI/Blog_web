@@ -1,0 +1,4 @@
+{
+	"title": "Install modules permissions",
+	"installModulePermissions": "Initializes database with essential modules permissions"
+}

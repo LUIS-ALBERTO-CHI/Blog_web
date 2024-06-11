@@ -1,0 +1,10 @@
+{
+	"name": "@fwaeu/vite-plugin-app-settings-json",
+	"version": "1.0.3",
+	"main": "index.mjs",
+	"type": "module",
+	"dependencies": {
+		"lodash-es": "4.17.21",
+		"json5": "2.2.3"
+	}
+}

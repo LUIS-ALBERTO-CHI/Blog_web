@@ -1,0 +1,58 @@
+{
+	"items": [
+		{
+			"key": "$base-success",
+			"value": "rgba(139, 195, 74, 1)"
+		},
+		{
+			"key": "$base-warning",
+			"value": "rgba(255, 193, 7, 1)"
+		},
+		{
+			"key": "$base-danger",
+			"value": "rgba(244, 67, 54, 1)"
+		},
+		{
+			"key": "$base-hover-color",
+			"value": "rgba(60, 64, 67, 1)"
+		},
+		{
+			"key": "$badge-bg",
+			"value": "rgba(0, 120, 212, 1)"
+		},
+		{
+			"key": "$pager-page-selected-bg",
+			"value": "rgba(212, 212, 212, 1)"
+		},
+		{
+			"key": "$base-accent",
+			"value": "rgba(0, 120, 212, 1)"
+		},
+		{
+			"key": "$base-text-color",
+			"value": "rgba(55, 70, 73, 1)"
+		},
+		{
+			"key": "$base-font-family",
+			"value": "Roboto, \"Segoe UI\", helvetica, verdana, sans-serif"
+		},
+		{
+			"key": "$base-bg",
+			"value": "rgba(255, 255, 255, 1)"
+		},
+		{
+			"key": "$texteditor-bg",
+			"value": "rgba(247, 249, 250, 1)"
+		},
+		{
+			"key": "$base-border-radius-small",
+			"value": "4px"
+		}
+	],
+	"baseTheme": "generic.light",
+	"outputColorScheme": "default",
+	"makeSwatch": false,
+	"version": "23.1.3",
+	"widgets": [],
+	"removeExternalResources": true
+}

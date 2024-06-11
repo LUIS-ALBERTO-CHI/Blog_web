@@ -1,0 +1,101 @@
+.content {
+	line-height: 1.5;
+	flex-grow: 1;
+
+	h2 {
+		font-size: 30px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+.content-block {
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+
+	.screen-x-small & {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+
+.responsive-paddings {
+	padding: 20px;
+
+	.screen-large & {
+		padding: 40px;
+	}
+}
+
+.dx-card.wide-card {
+	border-radius: 0;
+	margin-left: 0;
+	margin-right: 0;
+	border-right: 0;
+	border-left: 0;
+}
+
+.with-footer > .dx-scrollable-wrapper >
+.dx-scrollable-container > .dx-scrollable-content {
+	height: 100%;
+
+	& > .dx-scrollview-content {
+		display: flex;
+		flex-direction: column;
+		min-height: 100%;
+	}
+}
+
+$side-panel-min-width: 60px;
+
+
+/*NOTE: Buttons customization for material compact (Extracted from DevExtreme Material default theme)*/
+$material-button-horizontal-padding: 16px !default;
+$material-button-vertical-padding: 6px !default;
+$material-button-height: 36px !default;
+$material-button-min-width: 64px !default;
+$material-base-icon-size: 24px;
+$material-data-grid-icon-size: $material-base-icon-size - 4;
+
+body {
+	.dx-button-text {
+		line-height: $material-button-height - 2 * $material-button-vertical-padding - 1;
+	}
+
+	.dx-button-has-text {
+		min-width: $material-button-min-width;
+	}
+
+	.dx-dropdownbutton,
+	.dx-button-has-icon,
+	.dx-button {
+		min-width: $material-button-height;
+		height: $material-button-height;
+	}
+
+	.dx-menu {
+		.dx-menu-item {
+			height: $material-button-height;
+		}
+	}
+
+	.dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td.dx-cell-modified:not(.dx-field-item-content):not(.dx-validation-pending).dx-command-edit.dx-command-edit-with-icons .dx-link,
+	.dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td.dx-datagrid-invalid:not(.dx-field-item-content):not(.dx-validation-pending):not(.dx-datagrid-select-all).dx-command-edit.dx-command-edit-with-icons .dx-link,
+	.dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td:not(.dx-validation-pending):not(.dx-datagrid-select-all).dx-command-edit.dx-command-edit-with-icons .dx-link {
+		line-height: $material-data-grid-icon-size;
+		font-size: $material-data-grid-icon-size;
+		height: $material-data-grid-icon-size;
+		width: $material-data-grid-icon-size;
+	}
+
+	.dx-toolbar-button.dx-toolbar-text-auto-hide .dx-button .dx-icon,
+	.dx-button-has-icon .dx-icon {
+		line-height: $material-base-icon-size;
+		font-size: $material-base-icon-size;
+		height: $material-base-icon-size;
+		width: $material-base-icon-size;
+	}
+}
+
+

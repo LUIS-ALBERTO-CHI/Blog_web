@@ -1,0 +1,45 @@
+{
+	"farmsPage": "Farms",
+	"farmsMenuItemText": "Farms",
+	"generalInformation": "General information",
+	"animalsQuantities": "Quantity of animals",
+
+
+	"postalCode": "Postal code",
+	"name": "Name",
+	"categorySize": "Farm size category",
+	"principalActivity": "Principal activity",
+	"sellingPrice": "Sale price (in K€ excl tax)",
+	"employeesRecruitement": "Recruit new employees",
+	"openingDate": "Opening date",
+	"closingDate": "Closing date",
+	"animalCount": "Animal count",
+	"comment": "Comment",
+
+	"Small": "Small",
+	"Medium": "Medium",
+	"Large": "Large",
+	"unspecified": "Unspecified",
+	"nullClosingDateText": "None",
+	"CanAdministrateFarmMasterData": "Can manage farm referentials",
+	"CanAccessToFarmManager": "Can access to farm manager",
+	"CanSaveFarms": "Can save farms",
+	"CanDeleteFarms": "Can delete farms",
+
+	"errorFarmNotFound": "Farm #{farmId} not found",
+	"errorFarmAlreadyExists": "Farm '{farmName}' already exists",
+	"pseudonym": "Pseudonym",
+
+	"farmsWithoutAnimalsPage": "Without animals",
+	"farmsWithoutAnimalsUserTaskTitle": "Farms without animals",
+	"farmersUserTaskTitle": "Farmers",
+
+	"addFarm": "Add a farm",
+
+	"farmsFilterDisplayName": "Farm",
+	"farmIdsFilterDisplayName": "Farm by Id",
+	"farmerFilterDisplayName": "Farmer",
+
+	"persistentNotificationNewFarmer": "A new farmer was declared: {0}",
+	"regionsTitle": "Regions"
+}

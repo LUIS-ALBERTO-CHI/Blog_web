@@ -1,0 +1,7 @@
+@import 'nprogress/nprogress.css';
+
+#nprogress .bar {
+	background: lighten(#0078D4, 30%) !important;
+	top: 44.5px !important;
+	height: 3.5px !important;
+}

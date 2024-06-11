@@ -1,0 +1,9 @@
+{
+	"title": "Anonymous login",
+	"btnLogin": "Login",
+	"btnLogout": "Logout",
+	"userName": "User",
+	"firstName": "First name",
+	"lastName": "Last name",
+	"identity": "Identity"
+}

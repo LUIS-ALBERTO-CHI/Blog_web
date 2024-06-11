@@ -1,0 +1,15 @@
+{
+	"reports": "Reports",
+	"allReports": "All reports",
+	"apply": "Apply",
+	"defaultCategory": "General",
+	"pivotLabel": "Pivot",
+	"gridLabel": "Grid",
+	"userReportsTitle": "Reports",
+	"messageReportAsyncLoading": "Your report is loading. A link will be displayed as soon as the report is available.",
+	"linkReportAsync": "Click here to view it",
+	"textLinkReportAsync": "Your report '{reportName}' is available {link}",
+	"cacheKeyNotFound": "Report url has expired",
+	"CanAdministrateReports": "Can administrate reports",
+	"CanViewReports": "Can view reports"
+}

@@ -1,0 +1,25 @@
+body .noty_theme__relax.noty_bar .noty_body
+{
+	padding: 10px;
+}
+
+body #noty_layout__topRight
+{
+	width: 95%;
+	max-width: 100%;
+}
+
+
+@media screen and (min-width: 64em)
+{
+	body .noty_theme__relax.noty_bar .noty_body
+	{
+		padding: 20px;
+	}
+
+	body #noty_layout__topRight
+	{
+		width: 50%;
+		max-width: initial;
+	}
+}

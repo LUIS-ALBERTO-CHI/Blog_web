@@ -1,0 +1,4 @@
+{
+	"UniqueDbConstraint": "This item can not be created or updated because it does not respect a database unique constraint.",
+	"DeleteDbConstraint": "This item can not be deleted because it is used in the application."
+}

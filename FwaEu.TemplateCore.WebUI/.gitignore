@@ -1,0 +1,23 @@
+*njsproj.user
+/obj
+/bin
+
+.DS_Store
+**/node_modules/**
+**/dist/**
+**/dev-dist/**
+
+# local env files
+.env.local
+.env.*.local
+
+# local json files
+*.Local.json
+*.launch.json
+
+# Log files
+npm-debug.log*
+public/appSettings.*.js
+
+# Include this file
+!vue-shim.d.ts

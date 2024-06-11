@@ -1,0 +1,21 @@
+{
+	"reportAdminMenuItemText": "Reports and views",
+	"reportAdminMenuItemDescription": "Creation and modification of reports and views",
+	"reportAdminPage": "Reports",
+	"reportCode": "Code",
+	"reportName": "Name",
+	"reportCategory": "Category",
+	"newReport": "New",
+	"multipleFilterValidationError": "This filter already exists.",
+	"manageViews": "Manage views",
+	"export": "Export",
+	"newFromExisting": "New from existing",
+	"newReportFromExisting": "New report from existing",
+	"goToCreationPage": "Go to creation page",
+	"delete": "Delete",
+	"confirm": "Confirmation",
+	"askConfirmationForDelete": "Are you sure to delete this report?",
+	"reportDeleted": "The report has been deleted.",
+	"manageFilters": "Manage filters",
+	"refreshFilters": "Refresh filters"
+}

@@ -1,0 +1,8 @@
+{
+	"chooseFileButton": "Browse...",
+	"errorImport": "Error importing files",
+	"uploadFileButton": "Import",
+	"uploadOtherFiles": "Upload other files",
+	"dragFileText": "Drag and drop files here to upload",
+	"importResult": "Result"
+}

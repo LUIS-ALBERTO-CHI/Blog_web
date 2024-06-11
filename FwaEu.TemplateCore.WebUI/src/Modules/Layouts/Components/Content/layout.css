@@ -1,0 +1,28 @@
+.layout-with-padding
+{
+	margin: 0px -5px;
+}
+
+	.layout-with-padding .layout-column
+	{
+		padding: 0px 5px;
+	}
+
+		.layout-with-padding .layout-column + .layout-column
+		{
+			margin-top: 10px;
+		}
+
+
+	.layout-with-padding + .layout
+	{
+		margin-top: 10px;
+	}
+
+@media screen and (min-width: 64em)
+{
+	.layout-with-padding .layout-column + .layout-column
+	{
+		margin-top: 0px;
+	}
+}

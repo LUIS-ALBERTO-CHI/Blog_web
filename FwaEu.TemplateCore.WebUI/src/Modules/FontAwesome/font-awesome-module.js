@@ -1,0 +1,1 @@
+import '@fwaeu/fontawesome-pro/css/all.css';

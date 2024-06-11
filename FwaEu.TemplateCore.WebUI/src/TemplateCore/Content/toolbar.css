@@ -1,0 +1,9 @@
+body .layout-header .dx-toolbar-items-container {
+	background-color: #FFFFFF;
+}
+
+body .layout-header .dx-toolbar,
+body .layout-header .user-name,
+body .layout-header .dx-toolbar-item-content .dx-icon {
+	color: var(--secondary-text-color);
+}

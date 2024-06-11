@@ -1,0 +1,43 @@
+.item-counter {
+	height: 18px;
+	line-height: 18px;
+	width: 18px;
+	color: white;
+	position: absolute;
+	z-index: 10;
+	left: 34px;
+	top: 5px;
+	text-align: center;
+	font-size: 9px;
+	font-weight: bold;
+	border-radius: 100%;
+	background-color: #ED0000;
+}
+
+	.item-counter[data-type=info] {
+		background-color: #0078D4;
+	}
+
+	.item-counter[data-type=success] {
+		background-color: #00BA00;
+	}
+
+	.item-counter[data-type=danger] {
+		background-color: #ED0000;
+	}
+
+	.item-counter[data-type=warning] {
+		background-color: #FFC107;
+	}
+
+	.item-counter[data-type=dark] {
+		background-color: #000000;
+	}
+
+	.item-counter[data-type=primary] {
+		background-color: var(--primary-text-color);
+	}
+
+	.item-counter[data-type=secondary] {
+		background-color: var(--secondary-text-color);
+	}

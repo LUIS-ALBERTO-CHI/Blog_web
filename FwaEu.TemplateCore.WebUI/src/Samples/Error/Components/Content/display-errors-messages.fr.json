@@ -1,0 +1,12 @@
+{
+	"title": "Exemple montrant différents types d'erreurs gérées dans l'application",
+	"error4XX": "Erreur 4XX",
+	"error400": "Erreur 400",
+	"error401": "Erreur 401",
+	"error403": "Erreur 403",
+	"error404": "Erreur 404",
+	"error5XX": "Erreur 5XX",
+	"javascriptError": "Erreur Javascript",
+	"sentrylog": "log Sentry",
+	"sentryError": "Erreur Sentry"
+}

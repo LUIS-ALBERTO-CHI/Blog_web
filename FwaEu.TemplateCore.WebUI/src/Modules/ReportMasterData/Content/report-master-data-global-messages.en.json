@@ -1,0 +1,19 @@
+{
+	"reportsGroupText": "Reports",
+
+	"reportCategoriesTitle": "Categories",
+	"reportCategoriesDescription": "Configuration of the repositories where reports can be grouped",
+
+	"reportFieldsTitle": "Fields",
+	"reportFieldsDescription": "Fields configuration (localization, format, url...)",
+
+	"reportFiltersTitle": "Filters",
+	"reportFiltersDescription": "Prefilters configuration (localization, data source...)",
+
+	"masterData": "Master data",
+	"Sum": "Sum",
+	"Count": "Count",
+	"Average": "Average",
+	"Min": "Min",
+	"Max": "Max"
+}

@@ -1,0 +1,5 @@
+{
+	"state": "State",
+	"isAdmin": "Is admin",
+	"OnlyAdminCanDefineAdminProperty": "Only an administrator can define that another user is administrator."
+}

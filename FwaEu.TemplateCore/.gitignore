@@ -1,0 +1,4 @@
+/obj
+/bin
+*.Local.json
+_dev

@@ -1,0 +1,80 @@
+
+.form-buttons /* NOTE: To use for buttons which are at the end of a form */ {
+	text-align: center;
+	margin: 10px 0px 0px 0px; /* NOTE: Must be same as --> p, .block */
+}
+
+
+	.form-buttons .dx-button + .dx-button,
+	.grid-top-buttons .dx-button + .dx-button {
+		margin-left: 10px;
+	}
+
+a.dx-button-mode-outlined.dx-button-default,
+.dx-button-mode-outlined.dx-button-default:not(.dx-button) {
+	border: none;
+}
+
+body .header-item-container.dx-button .dx-button-content {
+	padding: 0;
+}
+
+body .dx-button:not(.dx-button-has-icon) {
+	border-radius: 23px;
+	font-weight: bold;
+}
+
+body td .dx-button:not(.dx-button-has-icon) {
+	height: unset;
+	border-radius: 0;
+	font-weight: normal;
+}
+
+body td .dx-button-has-text .dx-button-content {
+	padding: 0;
+}
+
+body .dx-toolbar-item-auto-hide .dx-button-has-icon, 
+body .dx-toolbar-item-auto-hide .dx-button {
+	height: auto;
+}
+
+body .dx-button.dx-button-has-icon {
+	border: none;
+}
+
+	body .dx-button.dx-button-has-icon:hover,
+	body .dx-button.dx-button-has-icon:focus {
+		border: none;
+	}
+
+body .dx-button-mode-text.dx-button-default {
+	background-color: transparent;
+	border-color: transparent;
+	color: #ED0000;
+}
+
+.dx-button-mode-text.dx-button-default.dx-state-focused,
+.dx-button-mode-text.dx-button-default.dx-state-hover {
+	background-color: #FFFFFF;
+	border-color: transparent;
+}
+
+.dx-button-mode-text.dx-button-default.dx-state-active {
+	background-color: rgba(212,0,0,.4);
+	border-color: transparent;
+	color: #ED0000;
+}
+
+.dx-button-has-text .dx-button-content {
+	padding: 7px 24px 8px;
+}
+
+.dx-button-default {
+	transition: ease-in-out 100ms all;
+}
+
+	body .toolbar-action-menu .dx-button-mode-outlined.dx-button-default.dx-button-has-icon:hover {
+		opacity: 0.6;
+	}
+

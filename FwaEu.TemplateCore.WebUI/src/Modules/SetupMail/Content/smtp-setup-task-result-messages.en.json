@@ -1,0 +1,15 @@
+{
+	"title": "SMTP configuration",
+	"host": "Host",
+	"port": "Port",
+	"userName": "User name",
+	"password": "Password",
+	"enableSsl": "Enable ssl",
+	"fromAddress": "From address",
+	"smtpIsNotEnabled": "SMTP is not configured",
+	"titleSMTPTest": "Send email",
+	"emailAddress": "Enter an email address",
+	"ignoreSSLCertificateValidation": "Ignore SSL certificate validation",
+	"btnTestSmtp": "Test email",
+	"noPassword": "No password defined"
+}

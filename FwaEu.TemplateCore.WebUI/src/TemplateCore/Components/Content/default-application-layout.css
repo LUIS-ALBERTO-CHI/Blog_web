@@ -1,0 +1,32 @@
+#app .dx-drawer-wrapper .dx-drawer-panel-content,
+#app .dx-drawer-wrapper .dx-overlay-content.dx-resizable {
+	transition: width 400ms ease 0ms !important;
+}
+
+#app .dx-drawer-opened .dx-drawer-wrapper .dx-drawer-panel-content,
+#app .dx-drawer-opened .dx-drawer-wrapper .dx-overlay-content {
+	width: 260px !important;
+}
+
+.default-application-layout-component {
+	flex-direction: column;
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+.layout-body {
+	flex: 1;
+	min-height: 0;
+}
+
+
+.content-footer-container {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.progress-bar-break {
+	height: 4px;
+}

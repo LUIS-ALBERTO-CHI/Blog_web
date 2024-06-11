@@ -1,0 +1,9 @@
+{
+	"unknownErrorMessage": "Erreur inconnue",
+	"errorPageTitle": "Erreur",
+	"errorMessage400": "Demande incorrecte",
+	"errorMessage401": "L'accès à la resource demandée est restreint et vous n'êtes pas autorisé à y accéder",
+	"errorMessage403": "L'accès à la resource demandée est restreint et vous n'êtes pas autorisé à y accéder",
+	"errorMessage404": "Impossible de trouver la ressource demandée",
+	"errorMessage5xx": "L'application a rencontré une erreur inconnue, si le problème persiste veuillez contacter votre administrateur"
+}

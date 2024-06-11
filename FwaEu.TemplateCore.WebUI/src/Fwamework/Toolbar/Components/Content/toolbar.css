@@ -1,0 +1,23 @@
+.toolbar {
+	height: 58px;
+}
+
+.toolbar .toolbar-clear {
+	clear: both;
+}
+
+.toolbar .toolbar-action-menu {
+	float: right;
+	position: relative;
+	top: 8.5px;
+}
+
+.toolbar.dx-accordion-item-title .toolbar-action-menu {
+	top: 0;
+}
+
+.toolbar-content {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}

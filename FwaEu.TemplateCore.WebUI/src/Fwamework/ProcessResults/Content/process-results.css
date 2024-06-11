@@ -1,0 +1,37 @@
+.process-result-context-name
+{
+	font-size: 120%
+}
+
+.process-result-entry
+{
+	border-left: 3px solid #DDDDDD;
+	padding: 1px 7px;
+	margin-top: 5px;
+	max-height: 200px;
+	overflow: auto;
+}
+
+	.process-result-entry.with-details .process-result-entry-content
+	{
+		font-weight: bold;
+	}
+
+	.process-result-entry:hover
+	{
+		background-color: #F5F5F5;
+	}
+
+	.process-result-entry.Error
+	{
+		border-left-color: #CC0000;
+		color: #CC0000;
+		font-weight: bold;
+	}
+
+
+		.process-result-entry.Error .process-result-entry-detail
+		{
+			margin-top: 5px;
+			font-weight: normal;
+		}

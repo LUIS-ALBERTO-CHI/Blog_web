@@ -1,0 +1,15 @@
+.page-container {
+    margin: 15px auto;
+}
+
+.page-container.form {
+    max-width: 800px;
+}
+
+.page-container.summary {
+    max-width: 1200px;
+}
+
+.page-container .page-container-content {
+    margin: 0px 10px;
+}

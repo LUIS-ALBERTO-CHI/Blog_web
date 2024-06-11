@@ -1,0 +1,7 @@
+{
+	"dataSourceType": "Type de source de données",
+	"filterCode": "Code du filtre",
+	"isRequired": "Est obligatoire",
+	"remove": "Supprimer",
+	"prefilters": "Pré-filtres"
+}

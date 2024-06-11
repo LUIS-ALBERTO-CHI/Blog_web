@@ -1,0 +1,7 @@
+{
+	"errorMessage": "Vous n'avez pas les droits nécessaires pour effectuer l'action demandée",
+	"accessDeniedForUserByPermission": "Accès interdit à cause d'un droit manquant. Veuillez contacter votre administrateur afin qu'il vous ajoute le droit suivant : {0}.",
+	"accessDeniedForUserByAnyPermission": "Accès interdit à cause d'un droit manquant. Veuillez contacter votre administrateur afin qu'il vous ajoute l'un des droits suivants : {0}.",
+	"accessDeniedForUserByAllPermissions": "Accès interdit à cause d'un ou plusieurs droits manquants. Veuillez contacter votre administrateur afin qu'il vous ajoute les droits suivants : {0}."
+}
+

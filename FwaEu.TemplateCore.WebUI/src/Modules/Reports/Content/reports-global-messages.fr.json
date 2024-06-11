@@ -1,0 +1,15 @@
+{
+	"reports": "Rapports",
+	"allReports": "Tous les rapports",
+	"apply": "Appliquer",
+	"defaultCategory": "Général",
+	"pivotLabel": "Tableau croisé",
+	"gridLabel": "Tableau",
+	"userReportsTitle": "Rapports",
+	"messageReportAsyncLoading": "Votre rapport est en cours de chargement. Un lien s'affichera dès que le rapport sera disponible",
+	"linkReportAsync": "Cliquez ici pour le consulter",
+	"textLinkReportAsync": "Votre rapport '{reportName}' est disponible {link}",
+	"cacheKeyNotFound": "L'url du rapport a expiré",
+	"CanAdministrateReports": "Peut gérer les rapports",
+	"CanViewReports": "Peut consulter les rapports"
+}

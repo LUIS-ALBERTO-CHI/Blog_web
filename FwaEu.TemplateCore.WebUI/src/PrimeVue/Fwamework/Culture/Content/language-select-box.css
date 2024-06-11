@@ -1,0 +1,22 @@
+.custom-dropdown-value {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    height: 14px;
+  }
+  
+  .custom-dropdown-value span {
+    margin-left: 8px;
+    font-size: 14px;
+  }
+  
+  .custom-dropdown-option {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+  }
+  
+  .custom-dropdown-option span {
+    margin-left: 8px;
+    font-size: 14px;
+  }

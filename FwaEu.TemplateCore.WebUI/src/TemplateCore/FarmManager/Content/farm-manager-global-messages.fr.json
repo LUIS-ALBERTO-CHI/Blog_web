@@ -1,0 +1,44 @@
+{
+	"farmsPage": "Fermes",
+	"farmsMenuItemText": "Fermes",
+	"generalInformation": "Informations générales",
+	"animalsQuantities": "Quantités d'animaux",
+
+	"postalCode": "Code postal",
+	"name": "Nom",
+	"categorySize": "Catégorie de taille d'exploitation",
+	"principalActivity": "Activité principale",
+	"sellingPrice": "Prix de vente (en K€ HT)",
+	"employeesRecruitement": "Recrute des nouveaux employés",
+	"openingDate": "Date d'ouverture",
+	"closingDate": "Date de fermeture",
+	"animalCount": "Quantité d'animaux",
+	"comment": "Commentaire",
+
+	"Small": "Petite",
+	"Medium": "Moyenne",
+	"Large": "Grande",
+	"unspecified": "Non renseignée",
+	"nullClosingDateText": "Aucune",
+	"CanAdministrateFarmMasterData": "Peut gérer les référentiels de ferme",
+	"CanAccessToFarmManager": "Peut accéder à la gestion de ferme",
+	"CanSaveFarms": "Peut enregistrer des fermes",
+	"CanDeleteFarms": "Peut supprimer des fermes",
+
+	"errorFarmNotFound": "Ferme #{farmId} non trouvée",
+	"errorFarmAlreadyExists": "La ferme '{farmName}' existe déja",
+	"pseudonym": "Pseudonyme",
+
+	"farmsWithoutAnimalsPage": "Sans animaux",
+	"farmsWithoutAnimalsUserTaskTitle": "Fermes sans animaux",
+	"farmersUserTaskTitle": "Fermiers",
+
+	"addFarm": "Ajouter une ferme",
+
+	"farmsFilterDisplayName": "Ferme",
+	"farmIdsFilterDisplayName": "Ferme par Id",
+	"farmerFilterDisplayName": "Fermier",
+
+	"persistentNotificationNewFarmer": "Un nouveau fermier a été déclaré : {0}",
+	"regionsTitle": "Régions"
+}

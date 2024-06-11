@@ -1,0 +1,32 @@
+{
+	"DataSource": {
+		"Type": "Sql",
+		"Argument": "Select f.name AS Name, f.comments, f.main_activity_id AS MainActivityId, f.selling_price_in_euros_without_taxes AS SellingPriceInEurosWithoutTaxes, f.recruit_employees AS RecruitEmployees, f.opening_date, f.category_size from dbo.farms f"
+	},
+	"Filters": [
+	],
+	"Properties": [
+	],
+	"DefaultViews": {
+	},
+	"Name": {
+		"en": "Farms list",
+		"fr": "Liste des fermes"
+	},
+	"Description": {
+		"en": "A great list of farms",
+		"fr": "Une superbe liste de fermes"
+	},
+	"CategoryInvariantId": "Building",
+	"IsAsync": false,
+	"Navigation": {
+		"Menu": {
+			"Visible": true,
+			"Index": 0
+		},
+		"Summary": {
+			"Visible": true,
+			"Index": 0
+		}
+	}
+}

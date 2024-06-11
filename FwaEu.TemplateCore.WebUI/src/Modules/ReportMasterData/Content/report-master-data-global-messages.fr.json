@@ -1,0 +1,19 @@
+{
+	"reportsGroupText": "Rapports",
+
+	"reportCategoriesTitle": "Catégories",
+	"reportCategoriesDescription": "Configuration des dossiers dans lesquels peuvent être groupés des rapports",
+
+	"reportFieldsTitle": "Champs",
+	"reportFieldsDescription": "Configuration des champs (localisation, format, url...) ",
+
+	"reportFiltersTitle": "Filtres",
+	"reportFiltersDescription": "Configuration des pré-filtres (localisation, source de données...)",
+
+	"masterData": "Master data",
+	"Sum": "Somme",
+	"Count": "Compte",
+	"Average": "Moyenne",
+	"Min": "Min",
+	"Max": "Max"
+}

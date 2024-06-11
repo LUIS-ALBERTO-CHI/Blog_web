@@ -1,0 +1,7 @@
+{
+	"baseCurrencyCode": "Devise source",
+	"date": "Utilisée à partir de",
+	"isInverse": "Est inversée",
+	"quotedCurrencyCode": "Devise de destination",
+	"value": "Taux"
+}

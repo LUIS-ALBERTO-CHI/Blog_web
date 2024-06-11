@@ -1,0 +1,11 @@
+{
+	"loginPageTitle": "Login",
+	"usersTitle": "Users",
+	"usersMenuItemText": "Users",
+	"usersMenuItemDescription": "Manage users, security rights and perimeters",
+	"newUser": "New",
+	"active": "Active",
+	"disabled": "Disabled",
+	"permissionsAndRightsGroupText": "Permissions and rights",
+	"CanAdministrateUsers": "Can administrate users"
+}

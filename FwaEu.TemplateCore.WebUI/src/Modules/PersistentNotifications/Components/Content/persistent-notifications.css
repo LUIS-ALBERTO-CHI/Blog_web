@@ -1,0 +1,85 @@
+	.user-notification-item {
+		padding-left: 12px;
+		color: var(--primary-text-color);
+	}
+
+	.user-notification-item-title {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.user-notification-item-title .user-notification-item-text {
+		font-size: 12px;
+	}
+
+	.user-notification-item-date {
+		font-size: 11px;
+		padding-top: 6px;
+		color: #AAAAAA;
+	}
+
+	.user-notification-item-text,
+	.user-notification-item-date {
+		font-weight: bold;
+	}
+
+	.user-notification-item-seen .user-notification-item-text,
+	.user-notification-item-seen .user-notification-item-date {
+		opacity: 0.55;
+		font-weight: normal;
+		transition: opacity ease-in-out 200ms;
+	}
+
+	.button-delete {
+		opacity: 0;
+		transition: opacity ease-in-out 200ms;
+		min-width: 36px;
+		height: 36px;
+		visibility: v-bind(deleteButtonVisibility);
+	}
+
+	.button-delete-visible .button-delete {
+		opacity: 1;
+	}
+
+	body .user-notification-item-title .button-delete.dx-button-has-icon .dx-icon {
+		color: var(--secondary-text-color);
+		line-height: 18px;
+		font-size: 18px;
+		height: 18px;
+		width: 18px;
+	}
+
+	.user-notification-item-title .dx-button-mode-contained.dx-state-hover {
+		background-color: transparent;
+	}
+
+	.user-notification-result-item {
+		overflow-y: scroll;
+		max-height: 500px;
+		height: auto;
+		overflow: auto;
+		overflow-x: hidden;
+		border-radius: 0px;
+	}
+
+	.user-notification-result-item-mobile {
+		padding-bottom: 10px;
+	}
+
+	.notification-item-wrapper {
+		padding-bottom: 10px;
+	}
+
+	.notification-item-wrapper+.notification-item-wrapper {
+		padding-top: 10px;
+	}
+
+	.notification-item-wrapper:last-child {
+		padding-bottom: 0;
+	}
+
+	.notification-item-wrapper+.notification-item-wrapper {
+		border-top: 1px solid var(--secondary-bg-color);
+	}

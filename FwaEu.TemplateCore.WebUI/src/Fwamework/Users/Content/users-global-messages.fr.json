@@ -1,0 +1,11 @@
+{
+	"loginPageTitle": "Connexion",
+	"usersTitle": "Utilisateurs",
+	"usersMenuItemText": "Utilisateurs",
+	"usersMenuItemDescription": "Gérer les utilisateurs, leurs droits d'accès et leurs périmètres",
+	"newUser": "Création",
+	"active": "Activé",
+	"disabled": "Désactivé",
+	"permissionsAndRightsGroupText": "Permissions et droits",
+	"CanAdministrateUsers": "Peut gérer les utilisateurs"
+}

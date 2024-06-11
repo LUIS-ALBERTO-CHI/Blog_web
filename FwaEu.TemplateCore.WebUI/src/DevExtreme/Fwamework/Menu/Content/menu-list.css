@@ -1,0 +1,43 @@
+.administration-menu .dx-treelist-header-panel {
+	border: none;
+}
+.menu-list .menu-list-item-icon {
+	color: var(--secondary-text-color);
+	width: 34px;
+	text-align: center;
+}
+
+.menu-list .dx-data-row[aria-level="0"] {
+	font-weight: bold;
+}
+
+.menu-list .dx-treelist-rowsview tr:not(.dx-row-focused) .dx-treelist-empty-space {
+	color: var(--secondary-text-color);
+}
+
+	.menu-list .dx-data-row[aria-level="1"]:hover {
+		background-color: rgb(0,0,0,0.08);
+	}
+
+	.menu-list .dx-data-row[aria-level="1"] *[aria-colindex="1"] {
+		color: var(--secondary-text-color);
+		text-decoration: underline;
+	}
+
+	.menu-list .dx-data-row[aria-level="1"] *[aria-colindex="2"] {
+		color: var(--alt-secondary-text-color);
+		font-style: italic;
+	}
+
+.menu-list .dx-data-row .dx-icon {
+	font-size: 24px;
+}
+
+.menu-list .dx-treelist-rowsview .dx-row[aria-expanded] > td,
+.menu-list .dx-treelist-rowsview .dx-row[aria-expanded] .dx-treelist-text-content {
+	overflow: initial;
+}
+
+.menu-list .dx-treelist .dx-row-lines > td {
+	border-bottom: 1px solid transparent;
+}
