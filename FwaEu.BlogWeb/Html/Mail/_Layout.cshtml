@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    @RenderSection("MetaSection", required: false)
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="R&eacute;servation de places de spectacles &agrave; prix r&eacute;duits, pour des pi&egrave;ces de th&eacute;&acirc;tre, de concerts, de soir&eacute;es &agrave; Paris, Lyon, Marseille et dans toute la France. Guide des pi&egrave;ces de th&eacute;&acirc;tre et spectacle avec vos critiques.">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png">
+    <style>
+        .center {
+            width: 100%;
+            text-align: center;
+            font-family: Open Sans, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <form id="mainform" runat="server">
+        <table cellpadding="0" cellspacing="0" border="0" style="width: 100%;font-family: 'Open Sans', sans-serif;">
+            <tr>
+                <td style="padding-left: 32px; vertical-align: middle" align="left">
+                    <h3 style="color: #ffffff">
+                        @*TODO: Title https://dev.azure.com/fwaeu/BlogWeb/_workitems/edit/5883*@
+                    </h3>
+                </td>
+            </tr>
+        </table>
+
+        @RenderBody()
+        <table class="center">
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <table style="text-align: center">
+                                    <tr>
+                                        <td>
+                                            <img src="cid:@this.ViewBag.CompanyLogoPath" height="50" />
+                                            <img src="cid:@this.ViewBag.FWALogoPath" height="50" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            @this.ViewBag.ApplicationName - @this.ViewBag.Version
+                                            @this.ViewBag.CopyrightYears
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

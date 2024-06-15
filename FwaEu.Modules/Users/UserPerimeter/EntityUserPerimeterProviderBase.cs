@@ -15,7 +15,7 @@ namespace FwaEu.Modules.Users.UserPerimeter
 {
 	public interface IPerimeterEntity<TReferenceEntityId> : IEntity
 	{
-		TReferenceEntityId GetReferenceEntityId(); // TODO: Remove https://dev.azure.com/fwaeu/TemplateCore/_workitems/edit/3911
+		TReferenceEntityId GetReferenceEntityId(); // TODO: Remove https://dev.azure.com/fwaeu/BlogWeb/_workitems/edit/3911
 		UserEntity User { get; set; }
 	}
 
@@ -40,15 +40,15 @@ namespace FwaEu.Modules.Users.UserPerimeter
 
 		protected abstract Expression<Func<TEntity, bool>> WhereFullAccess();
 
-		// TODO: Create a virtual implementation based on WhereFullAccess https://dev.azure.com/fwaeu/TemplateCore/_workitems/edit/3911
+		// TODO: Create a virtual implementation based on WhereFullAccess https://dev.azure.com/fwaeu/BlogWeb/_workitems/edit/3911
 		protected abstract Expression<Func<TEntity, bool>> WhereNotFullAccess();
 
-		// TODO: Create a virtual implementation based on SelectReferenceEntityId https://dev.azure.com/fwaeu/TemplateCore/_workitems/edit/3911
+		// TODO: Create a virtual implementation based on SelectReferenceEntityId https://dev.azure.com/fwaeu/BlogWeb/_workitems/edit/3911
 		protected abstract Expression<Func<TEntity, bool>> WhereContainsReferenceEntities(TReferenceEntityId[] ids);
 
 		protected abstract Expression<Func<TEntity, TReferenceEntityId>> SelectReferenceEntityId();
 
-		// TODO: Create a virtual implementation based on SelectReferenceEntityId https://dev.azure.com/fwaeu/TemplateCore/_workitems/edit/3911
+		// TODO: Create a virtual implementation based on SelectReferenceEntityId https://dev.azure.com/fwaeu/BlogWeb/_workitems/edit/3911
 		protected abstract TEntity CreatePerimeterEntity(TReferenceEntity referenceEntity);
 
 		private TEntity CreatePerimeterEntityAndSetUser(TReferenceEntity referenceEntity, UserEntity user)

@@ -27,7 +27,7 @@ namespace FwaEu.Modules.Mail.SmtpMailSender
 
 			using (var client = new SmtpClient())
 			{
-				//TODO: Ignoring SSL validation certificate errors  https://dev.azure.com/fwaeu/TemplateCore/_workitems/edit/7995/
+				//TODO: Ignoring SSL validation certificate errors  https://dev.azure.com/fwaeu/BlogWeb/_workitems/edit/7995/
 				if (settings.IgnoreSSLCertificateValidation)
 				{
 					client.ServerCertificateValidationCallback += (sender, certificate, chain, sslPolicyErrors) => { return true; };

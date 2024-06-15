@@ -81,8 +81,8 @@ namespace FwaEu.Modules.PasswordRecovery
 			userPasswordRecoveryEntity.Guid = guid;
 			await userPasswordRecoveryEntityRepository.SaveOrUpdateAsync(userPasswordRecoveryEntity);
 
-			var clientApplicationUrl = _config.GetValue<string>("Fwamework:ApplicationClientAbsoluteUrl"); //HACK: Waiting for discussion on https://dev.azure.com/fwaeu/TemplateCore/_workitems/edit/4889
-			var passwordRecoveryUrl = $"{clientApplicationUrl}PasswordRecovery?userId={existingUser.Id}&guid={guid}"; //TODO https://dev.azure.com/fwaeu/TemplateCore/_workitems/edit/4906
+			var clientApplicationUrl = _config.GetValue<string>("Fwamework:ApplicationClientAbsoluteUrl"); //HACK: Waiting for discussion on https://dev.azure.com/fwaeu/BlogWeb/_workitems/edit/4889
+			var passwordRecoveryUrl = $"{clientApplicationUrl}PasswordRecovery?userId={existingUser.Id}&guid={guid}"; //TODO https://dev.azure.com/fwaeu/BlogWeb/_workitems/edit/4906
 			var model = new SendPasswordRecoveryModel()
 			{
 				RecipientName = existingUser.ToString(),

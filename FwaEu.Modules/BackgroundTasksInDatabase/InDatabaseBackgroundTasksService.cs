@@ -14,7 +14,7 @@ namespace FwaEu.Modules.BackgroundTasksInDatabase
 	public class InDatabaseBackgroundTasksService : BackgroundTasksServiceBase
 	{
 		// NOTE: 30 seconds not to bother the database too much
-		public override int PoolingDelayInMilliseconds => 30 * 1000; //TODO: pooling delay from config https://dev.azure.com/fwaeu/TemplateCore/_workitems/edit/5364
+		public override int PoolingDelayInMilliseconds => 30 * 1000; //TODO: pooling delay from config https://dev.azure.com/fwaeu/BlogWeb/_workitems/edit/5364
 
 		private readonly ISessionAdapterFactory _sessionAdapterFactory;
 		private readonly IRepositoryFactory _repositoryFactory;

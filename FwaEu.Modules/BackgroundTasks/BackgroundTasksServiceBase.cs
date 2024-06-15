@@ -26,7 +26,7 @@ namespace FwaEu.Modules.BackgroundTasks
 
 	public abstract class BackgroundTasksServiceBase : IBackgroundTasksService
 	{
-		private const int MaximumParallelism = 5; //TODO: from config https://dev.azure.com/fwaeu/TemplateCore/_workitems/edit/5364
+		private const int MaximumParallelism = 5; //TODO: from config https://dev.azure.com/fwaeu/BlogWeb/_workitems/edit/5364
 
 		protected readonly AsyncLock Lock = new AsyncLock();
 		private readonly List<ITaskExecution> _executing = new List<ITaskExecution>(MaximumParallelism);

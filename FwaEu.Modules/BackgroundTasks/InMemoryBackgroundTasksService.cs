@@ -39,7 +39,7 @@ namespace FwaEu.Modules.BackgroundTasks
 	public class InMemoryBackgroundTasksService : BackgroundTasksServiceBase
 	{
 		//NOTE: 5 seconds because in memory, it cost very few to check the queue
-		public override int PoolingDelayInMilliseconds => 5 * 1000; //TODO: pooling delay from config https://dev.azure.com/fwaeu/TemplateCore/_workitems/edit/5364
+		public override int PoolingDelayInMilliseconds => 5 * 1000; //TODO: pooling delay from config https://dev.azure.com/fwaeu/BlogWeb/_workitems/edit/5364
 
 		private readonly Queue<InMemoryTaskExecution> _queue
 			= new Queue<InMemoryTaskExecution>();
@@ -165,7 +165,7 @@ namespace FwaEu.Modules.BackgroundTasks
 
 		public override Task<TaskResultModel> GetResultAsync(Guid queueGuid)
 		{
-			//TODO: Lifetime https://dev.azure.com/fwaeu/TemplateCore/_workitems/edit/5176
+			//TODO: Lifetime https://dev.azure.com/fwaeu/BlogWeb/_workitems/edit/5176
 
 			if (this._results.ContainsKey(queueGuid))
 			{

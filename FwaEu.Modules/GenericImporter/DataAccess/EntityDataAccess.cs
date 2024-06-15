@@ -82,7 +82,7 @@ namespace FwaEu.Modules.GenericImporter.DataAccess
 			{
 				if (propertyValueSet.Data.Any(d => d.Name != null))
 				{
-					//TODO: Handle the search by sub properties https://fwaeu.visualstudio.com/TemplateCore/_workitems/edit/4911/
+					//TODO: Handle the search by sub properties https://fwaeu.visualstudio.com/BlogWeb/_workitems/edit/4911/
 
 					throw new NotSupportedException(
 						"Not supported currently. If you need to use sub properties with database access, " +

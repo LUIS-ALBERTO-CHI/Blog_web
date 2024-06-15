@@ -43,7 +43,7 @@ namespace FwaEu.Modules.NHibernateLogging
 		{
 			if (_loggable)
 			{
-				//TODO: Implement logic to replace parameters in sql query https://dev.azure.com/fwaeu/TemplateCore/_workitems/edit/6185
+				//TODO: Implement logic to replace parameters in sql query https://dev.azure.com/fwaeu/BlogWeb/_workitems/edit/6185
 				_logger.Log(_logLevelFor[logLevel], exception, "{1}", FormatLogValues(state));
 			}
 		}

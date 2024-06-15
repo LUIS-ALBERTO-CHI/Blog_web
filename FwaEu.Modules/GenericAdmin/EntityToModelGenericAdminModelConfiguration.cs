@@ -204,7 +204,7 @@ namespace FwaEu.Modules.GenericAdmin
 
 		protected virtual IQueryable<TEntity> Query()
 		{
-			return this.GetRepository().QueryNoPerimeter(); //NOTE: Perimeter discussion https://dev.azure.com/fwaeu/TemplateCore/_workitems/edit/4508
+			return this.GetRepository().QueryNoPerimeter(); //NOTE: Perimeter discussion https://dev.azure.com/fwaeu/BlogWeb/_workitems/edit/4508
 		}
 
 		private async Task<List<TModel>> LoadEntitiesAsync(GenericAdminGetModelsParameters options)

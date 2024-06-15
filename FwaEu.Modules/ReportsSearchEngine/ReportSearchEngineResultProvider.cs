@@ -40,7 +40,7 @@ namespace FwaEu.Modules.ReportsSearchEngine
 					r.InvariantId,
 					r.Name,
 					r.Description,
-					//TODO: Add icon https://dev.azure.com/fwaeu/TemplateCore/_workitems/edit/7267
+					//TODO: Add icon https://dev.azure.com/fwaeu/BlogWeb/_workitems/edit/7267
 				});
 		}
 	}

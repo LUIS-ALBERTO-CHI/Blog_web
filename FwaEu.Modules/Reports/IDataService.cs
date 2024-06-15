@@ -66,7 +66,7 @@ namespace FwaEu.Modules.Reports
 					nameof(dataSource.Type));
 			}
 
-			//TODO: Validate Filters, ".net type matching with IParametersService values" https://dev.azure.com/fwaeu/TemplateCore/_workitems/edit/5167
+			//TODO: Validate Filters, ".net type matching with IParametersService values" https://dev.azure.com/fwaeu/BlogWeb/_workitems/edit/5167
 
 			var logScope = provider.GetLogScope(dataSource.Argument);
 			return new DataServiceDataScope(
